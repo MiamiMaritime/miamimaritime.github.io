@@ -1,0 +1,11 @@
+permalink:           :year/:month/:day/:title/
+title:               Miami Maritime
+copyright_name: Miami Maritime
+author: Miami Maritime
+tagline:             ''
+description:         ''
+url:                 ''
+paginate:            1
+excerpt_separator: <!--more-->
+plugins:
+  - jekyll-feed

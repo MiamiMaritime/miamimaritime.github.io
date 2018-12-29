@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <!--<body class="layout-reverse" onLoad="rndDesc('DescSide');rndDesc('DescAbout');">-->
+  <!--<body class="layout-reverse" onLoad="rndBlocks('rndBlocks');">-->
+  <body class="layout-reverse">
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+<!-- Experimental -->
+	<div id="header" role="banner">
+<h3 class="masthead-title">
+            <a href="/" title="Home">Miami Maritime</a>
+            <small></small>
+          </h3>
+    <form id="search-form" action="/search" method="get">
+			<div role="search">
+        <input type="search" placeholder="Search" name="query" id="query">
+				<input type="submit" class="btn" value="Search" />
+			</div>
+		</form>
+	</div>  
+<div id="nav" role="navigation">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/about/">About</a></li>
+			<li><a href="/copyright/">Copyright</a></li>
+			<li><a href="/disclaimer/">Disclaimer</a></li>
+			<li><a href="/sub/">Subscribe</a></li>
+		</ul>
+	</div>      
+<!-- Experimental -->
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>

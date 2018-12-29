@@ -1,0 +1,11 @@
+---  
+title: The yawl Allisoni returns with  
+tags:  
+  - Sep 1920  
+---  
+  
+The yawl Allisoni returns with fish for the aquarium.  
+  
+Newspapers: **Daily Miami Metropolis, The Miami Metropolis (daily), The Daily Metropolis or Miami Daily Metropolis**  
+  
+Page: **3**, Section: **N/A** 
